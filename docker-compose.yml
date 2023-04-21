@@ -34,7 +34,7 @@ services:
       - ./:/var/www
     networks:
       - dev
-
+    working_dir: /var/www
 networks:
   dev:
 
