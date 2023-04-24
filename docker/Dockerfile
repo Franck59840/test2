@@ -3,6 +3,7 @@ FROM php:8.2-apache
 
 ENV COMPOSER_ALLOW_SUPERUSER=1
 
+
 # Apache configuration
 RUN echo "ServerName localhost" >> /etc/apache2/apache2.conf \
   \
