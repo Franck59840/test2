@@ -38,3 +38,6 @@ RUN echo "ServerName localhost" >> /etc/apache2/apache2.conf \
   &&  pecl install apcu && docker-php-ext-enable apcu 
 # Installation of the application
 WORKDIR /var/www/adminGVT
+
+COPY docker-php-entrypoint.sh /usr/local/bin/
+RUN chmod +x /usr/local/bin/docker-php-entrypoint.sh
