@@ -17,7 +17,7 @@ services:
       - dev
 
   phpmyadmin:
-    image: phpmyadmin
+    image: phpmyadmin/phpmyadmin
     container_name: phpmyadmnin_gvt
     depends_on:
       - db
