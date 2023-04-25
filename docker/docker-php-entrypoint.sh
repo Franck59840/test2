@@ -9,7 +9,7 @@ chmod -R 777 var/cache
 
 
 # Install dependencies with Composer
-composer install --no-progress --no-interaction --no-suggest --no-scripts --prefer-dist
+composer install --no-progress --no-interaction --no-suggest --prefer-dist
 
 # Start Apache
 apache2-foreground
