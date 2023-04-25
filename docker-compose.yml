@@ -38,9 +38,10 @@ services:
       - ./:/var/www
     networks:
       - dev
-    # environment:
-    #   -  DATABASE_URL: mysql://root:secret@mysql:3306/symfony
-    # working_dir: /var/www
+    command: /usr/local/bin/docker-php-entrypoint.sh
+    tty: true
+    working_dir: /var/www/adminGVT
+    
 networks:
   dev:
 
