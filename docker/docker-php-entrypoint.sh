@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/shgit 
 set -e
 
 # Create logs and cache directories
@@ -9,7 +9,7 @@ chmod -R 777 var/cache
 
 
 # Install dependencies with Composer
-composer install --no-progress --no-interaction --no-suggest --prefer-dist
+composer install --no-progress --no-interaction --prefer-dist
 
 # Start Apache
 apache2-foreground

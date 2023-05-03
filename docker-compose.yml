@@ -38,7 +38,7 @@ services:
       - ./:/var/www
     networks:
       - dev
-    command: /usr/local/bin/docker-php-entrypoint.sh
+   
     tty: true
     working_dir: /var/www/adminGVT
     
