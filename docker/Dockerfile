@@ -57,3 +57,5 @@ EXPOSE 80
 # Start Apache server using the custom entrypoint script
 ENTRYPOINT ["docker-php-entrypoint.sh"]
 CMD ["apache2-foreground"]
+
+#test
