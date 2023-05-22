@@ -1,4 +1,4 @@
-#!/bin/shgit 
+#!/bin/sh
 set -e
 
 # Create logs and cache directories
